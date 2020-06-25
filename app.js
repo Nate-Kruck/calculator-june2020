@@ -50,7 +50,7 @@ minusButton.addEventListener('click', () => {
     const sub = Number(value3) - Number(value4);
 
     minusSpan.textContent = sub;
-})
+});
 
 // get multiply-input-1
 const multiplyInput1 = document.getElementById('multiply-input-1');
@@ -72,7 +72,7 @@ multiplyButton.addEventListener('click', () => {
     const multiply = Number(value5) * Number(value6);
 
     multiplySpan.textContent = multiply;
-})
+});
 
 // get divide-input-1
 const divideInput1 = document.getElementById('divide-input-1');
@@ -94,4 +94,4 @@ divideButton.addEventListener('click', () => {
     const divide = Number(value7) / Number(value8);
 
     divideSpan.textContent = divide;
-})
+});
