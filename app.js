@@ -25,3 +25,29 @@ boogerButton.addEventListener('click', () => {
     // update the textContent of the span
     boogerSpan.textContent = sum;
 });
+
+// get subtract-input-1
+const subInput1 = document.getElementById('subtract-input-1');
+// get subtract-input-2
+const subInput2 = document.getElementById('subtract-input-2');
+// get subtract-button
+const minusButton = document.getElementById('subtract-button');
+// get subtract-result span
+const minusSpan = document.getElementById('subtract-result');
+
+// initialize state
+
+// set the event handler to the button
+minusButton.addEventListener('click', () => {
+    // in the click event hangler . . .
+    // make sure we have the inputs (console.log)
+    // make sure we have the span
+    // make sure we have the .values of the inputs
+    const value3 = subInput1.value;
+    const value4 = subInput2.value;
+
+    // add the two values together
+    const sub = Number(value3) - Number(value4);
+
+    minusSpan.textContent = sub;
+})
